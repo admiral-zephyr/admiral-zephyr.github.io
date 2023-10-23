@@ -105,6 +105,11 @@ ul.main {
 
 hr.main {
 	max-width: 1200px;
+	color: white;
+	background-color: black;
+	height: 2px;
+	border-width: 0;
+	float: none;
 	}
 
 #banner {
