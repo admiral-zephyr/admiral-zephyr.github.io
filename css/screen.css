@@ -13,7 +13,7 @@ a:hover 	{color: #FFFFFF; text-decoration: underline overline; }
 a:active 	{color: #999999; text-decoration: none; }
 
 hr {
-	color: black;
+	color: white;
 	background-color: black;
 	height: 2px;
 	border-width: 0;
