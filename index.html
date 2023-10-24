@@ -34,7 +34,7 @@
 				}
 				function subredditToggle() {
 					var subredditShow = document.getElementById("subreddits");
-					if (subredditShow.style.display == "none") {subredditShow.style.display = "block";} else {subredditShow.style.display = "none";}
+					if (subredditShow.style.display == "block") {subredditShow.style.display = "none";} else {subredditShow.style.display = "block";}
 				}
 			</script>
 			<noscript>Javascript is disabled...</noscript>
@@ -63,7 +63,7 @@
 		</center></tr></td></table><br>
 
 		<table class=main><td><tr><br><center>
-			<img src="/gfx/reddit.png" width="128" onclick="subredditToggle()"><br>
+			<a href="https://www.reddit.com/" target="_self"><img src="/gfx/reddit.png" width="128"></a><img src="/gfx/stone_down.png" onclick="subredditToggle()"><br>
 				<span id="subreddits">
 				<a href="https://www.reddit.com/r/worldnews" target="_self"><img src="/gfx/r_worldnews.png" height="22"></a>
 				<a href="https://www.reddit.com/r/news" target="_self"><img src="/gfx/r_news.png" height="22"></a>
