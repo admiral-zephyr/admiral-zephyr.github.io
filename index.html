@@ -32,10 +32,6 @@
 					var openmenu = document.getElementById("dropelement");
 					if (openmenu.style.display == "block") {openmenu.style.display = "none";} else {openmenu.style.display = "block";}
 				}
-				function subredditToggle() {
-					var subredditShow = document.getElementById("subreddits");
-					if (subredditShow.style.display == "block") {subredditShow.style.display = "none";} else {subredditShow.style.display = "block";}
-				}
 			</script>
 			<noscript>Javascript is disabled...</noscript>
 			<span id="dropelement">
@@ -63,6 +59,13 @@
 		</center></tr></td></table><br>
 
 		<table class=main><td><tr><br><center>
+			<script type="text/javascript">
+				function subredditToggle() {
+					var subredditShow = document.getElementById("subreddits");
+					if (subredditShow.style.display == "block") {subredditShow.style.display = "none";} else {subredditShow.style.display = "block";}
+				}
+			</script>
+			<noscript>Javascript is disabled...</noscript>
 			<a href="https://www.reddit.com/" target="_self"><img src="/gfx/reddit.png" width="128"></a><img src="/gfx/stone_down.png" width="20" onclick="subredditToggle()"/><br>
 				<span id="subreddits">
 					<a href="https://www.reddit.com/r/worldnews" target="_self"><img src="/gfx/r_worldnews.png" height="22"></a>
