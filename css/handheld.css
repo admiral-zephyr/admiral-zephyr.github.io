@@ -143,6 +143,10 @@ hr.main {
 	display: none;
 	}
 
+#subreddits {
+	display: none;
+	}
+
 #main-body {
 	width: 100%;
 	height: 100%;
