@@ -12,14 +12,6 @@ a:visited 	{color: #000000; text-decoration: none; }
 a:hover 	{color: #FFFFFF; text-decoration: underline overline; }
 a:active 	{color: #999999; text-decoration: none; }
 
-hr {
-	color: white;
-	background-color: black;
-	height: 2px;
-	border-width: 0;
-	float: none;
-}
-
 .button {width: 150px; background-color: #000000; color: #ffffff; font-size: 20px; }
 .search {width: 75%; background-color: #000000; color: #ffffff; font-size: 24px; }
 
