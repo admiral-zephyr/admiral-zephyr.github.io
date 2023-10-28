@@ -16,7 +16,7 @@ a:active 	{color: #999999; text-decoration: none; }
 .search {width: 75%; background-color: #000000; color: #ff0000; font-size: 20px; border-radius: 10px; font-family: ManaSpace; src: url('manaspc.ttf');}
 
 img.logo_icon 		{position: relative; 	z-index: 16777270; 	height: 100%; top: 0px; cursor: pointer; }
-img.logo_text 		{position: relative;	z-index: 16777270;  height: 95%; top: 0px; cursor: pointer; }
+img.logo_text 		{position: relative;	z-index: 16777270;  height: 95%; top: -3px; cursor: pointer; }
 img.link_steam 		{position: sticky;		z-index: 16777270; 	height: 64px; }
 img.link_twitch 	{position: sticky;		z-index: 16777270; 	height: 64px; }
 img.link_streamlabs	{position: sticky;		z-index: 16777270; 	height: 64px; }
