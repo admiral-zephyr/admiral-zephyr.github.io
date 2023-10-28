@@ -13,7 +13,7 @@ a:hover 	{color: #FFFFFF; text-decoration: underline overline; }
 a:active 	{color: #999999; text-decoration: none; }
 
 .button {width: 150px; background-color: #ffffff; color: #000000; font-size: 20px; font-family: Arial, Sansserif;}
-.search {width: 75%; background-color: #000000; color: #ffffff; font-size: 24px; border-radius: 5px;}
+.search {width: 75%; background-color: #000000; color: #ffffff; font-size: 24px; border-radius: 10px;}
 
 img.logo_icon 		{position: relative; 	z-index: 16777270; 	height: 100%; top: 0px; cursor: pointer; }
 img.logo_text 		{position: relative;	z-index: 16777270;  height: 100%; top: 0px; cursor: pointer; }
