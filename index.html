@@ -31,20 +31,27 @@
 					var openmenu = document.getElementById("dropelement");
 					if (openmenu.style.display == "block") {openmenu.style.display = "none";} else {openmenu.style.display = "block";}
 				}
-				function startClock() {
-					const today = new Date();
-					let h = today.getHours();
-					let m = today.getMinutes();
-					let s = today.getSeconds();
-					m = checkTime(m);
-					s = checkTime(s);
-					document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
-					setTimeout(startTime, 1000);	
+				function showTime(){
+					var date = new Date();
+					var h = date.getHours(); // 0 - 23
+					var m = date.getMinutes(); // 0 - 59
+					var s = date.getSeconds(); // 0 - 59
+					var session = "AM";
+
+					if(h == 0){h = 12;}
+					if(h > 12){h = h - 12;session = "PM";}
+
+					h = (h < 10) ? "0" + h : h;
+					m = (m < 10) ? "0" + m : m;
+					s = (s < 10) ? "0" + s : s;
+
+					var time = h + ":" + m + ":" + s + " " + session;
+					document.getElementById("MyClockDisplay").innerText = time;
+					document.getElementById("MyClockDisplay").textContent = time;
+				
+					setTimeout(showTime, 1000);
 				}
-				function checkTime(i) {
-					if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-					return i;
-				}
+			showTime();
 			</script>
 			<noscript>Javascript is disabled...</noscript>
 			<span id="dropelement">
@@ -59,7 +66,7 @@
 			<center><form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_self">
 				<input autocomplete="on" class="form-control search" name="q" placeholder="" required="required" type="text" autofocus><br><br>
 				<button class="button" type="submit"><b><i>SEARCH</i></b></button></form></center><br>
-				<center><div id="txt"></div></center>
+				<center><div id="MyClockDisplay" class="clock" onload="showTime()"></div></center>
 		</tr></td></table>
 
 		<table class=main><td><tr><br><center>
