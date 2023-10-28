@@ -99,7 +99,7 @@ span.main {
 	background: #666666 url('../gfx/background_pattern_01.png') repeat;
 	background-attachment: fixed;
 	border: 3px solid black;
-	border-radius: 5px;
+	border-radius: 10px;
 	z-index: 16777262;
 	margin-left:auto;margin-right:auto;
 	width: 90%
