@@ -12,7 +12,7 @@ a:visited 	{color: #000000; text-decoration: none; }
 a:hover 	{color: #FFFFFF; text-decoration: underline overline; }
 a:active 	{color: #999999; text-decoration: none; }
 
-.button {width: 100px; background-color: #000000; color: #ffffff; font-size: 20px; border-radius: 5px; font-family: ManaSpace; src: url('manaspc.ttf');}
+.button {background-color: #000000; color: #ffffff; font-size: 32px; border-radius: 5px; font-family: ManaSpace; src: url('manaspc.ttf');}
 .search {width: 75%; background-color: #000000; color: #ffffff; font-size: 24px; border-radius: 10px; font-family: ManaSpace; src: url('manaspc.ttf');}
 
 img.logo_icon 		{position: relative; 	z-index: 16777270; 	height: 100%; top: 0px; cursor: pointer; }
