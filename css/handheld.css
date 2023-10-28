@@ -12,8 +12,8 @@ a:visited 	{color: #000000; text-decoration: none; }
 a:hover 	{color: #FFFFFF; text-decoration: underline overline; }
 a:active 	{color: #999999; text-decoration: none; }
 
-.button {background-color: #000000; color: #ff0000; font-size: 20px; border-radius: 5px; font-family: ManaSpace; src: url('manaspc.ttf'); padding: 5px;}
-.search {width: 75%; background-color: #000000; color: #ff0000; font-size: 20px; border-radius: 10px; font-family: ManaSpace; src: url('manaspc.ttf'); padding: 5px;}
+.button {background-color: #000000; color: #ff0000; font-size: 20px; border-radius: 5px; font-family: ManaSpace; src: url('manaspc.ttf'); padding-right: 5px;}
+.search {width: 75%; background-color: #000000; color: #ff0000; font-size: 20px; border-radius: 10px; font-family: ManaSpace; src: url('manaspc.ttf'); padding-right: 5px;}
 
 img.logo_icon 		{position: relative; 	z-index: 16777270; 	height: 100%; top: 0px; cursor: pointer; }
 img.logo_text 		{position: relative;	z-index: 16777270;  height: 100%; top: 0px; cursor: pointer; }
