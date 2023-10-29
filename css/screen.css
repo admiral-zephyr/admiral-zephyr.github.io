@@ -32,7 +32,7 @@ img.altleft			{border-radius: 5px; float: left;	z-index: 16777269; 				margin: a
 img.altright		{border-radius: 5px; float: right;	z-index: 16777269;				margin: auto; padding: 5px; padding-left: 10px; }
 img.twitchhide		{z-index: 16777270;		height: 16px;	float: right; }
 img.twitch_left		{z-index: 16777270;		height: 16px;	float: left; }
-img.error			{width: 35%; }
+img.error			{width: 25%; }
 
 table.main {
 	background: #666666 url('../gfx/zstngd.png') repeat;
