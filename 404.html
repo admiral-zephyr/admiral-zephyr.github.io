@@ -17,14 +17,9 @@
 		<meta name="msapplication-TileImage" content="/gfx/favicon/mstile-144x144.png">
 		<meta name="msapplication-config" content="/gfx/favicon/browserconfig.xml">
 		<meta name="theme-color" content="#000000">
-
 		<!--CSS-->
-		<link rel="stylesheet" type="text/css" media="screen and (min-width: 1023px)" href="/css/screen.css" />
-		<link rel="stylesheet" type="text/css" media="screen and (max-width: 1024px)" href="/css/handheld.css" />
-
-		<!--JAVASCRIPT SOURCES-->
-		<script src="/script/favicon.js"></script>
-		<noscript>Javascript is disabled...</noscript>
+		<link rel="stylesheet" type="text/css" media="(max-width: 1080px) and (orientation: portrait)" href="/css/handheld.css" />
+		<link rel="stylesheet" type="text/css" media="(min-width: 400px) and (orientation: landscape)" href="/css/screen.css" />
 	</head>
 
 	<body>
@@ -37,6 +32,7 @@
 					if (openmenu.style.display == "block") {openmenu.style.display = "none";} else {openmenu.style.display = "block";}
 				}
 			</script>
+			<noscript>Javascript is disabled...</noscript>
 			<span id="dropelement">
 				<ul class=main><a href="https://www.twitch.tv/zephyr4mayor" 			target="_blank">	<img src="/gfx/logo_twitch.png" 	alt="Twitch" 		class=link_twitch /></a></ul> <!--/ /-->
 				<ul class=main><a href="https://www.youtube.com/user/zephyr4mayor"		target="_blank">	<img src="/gfx/logo_youtube.png" 	alt="Youtube" 		class=link_youtube /></a></ul> <!--/ /-->
