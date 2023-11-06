@@ -15,6 +15,7 @@ img.logo_text 		{position: relative;	z-index: 16777270;  height: 95%; top: -3px;
 img.link_steam 		{position: sticky;		z-index: 16777270; 	height: 64px; }
 img.link_twitch 	{position: sticky;		z-index: 16777270; 	height: 64px; }
 img.link_youtube 	{position: sticky;		z-index: 16777270; 	height: 48px; }
+img.link_streams	{width: 25%;}
 img.link_footer 	{z-index: 16777270;		height: 32px; }
 img.error			{width: 75%; }
 
