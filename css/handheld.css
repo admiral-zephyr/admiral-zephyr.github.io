@@ -18,7 +18,7 @@ img.link_youtube 	{position: sticky;		z-index: 16777270; 	height: 48px; }
 img.link_streams	{width: 40%;}
 img.link_news		{width: 32%;}
 img.link_games		{width: 32%;}
-img.link_subreddits	{height: 22px;}
+img.link_subreddits	{height: 44px;}
 img.link_footer 	{z-index: 16777270;		height: 32px; }
 img.error			{width: 75%; }
 
