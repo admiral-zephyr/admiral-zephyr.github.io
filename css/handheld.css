@@ -16,7 +16,7 @@ img.link_steam 		{position: sticky;		z-index: 16777270; 	height: 64px; }
 img.link_twitch 	{position: sticky;		z-index: 16777270; 	height: 64px; }
 img.link_youtube 	{position: sticky;		z-index: 16777270; 	height: 48px; }
 img.link_streams	{width: 40%;}
-img.link_streams:hover		{text-shadow: 2px 2px 8px rgba(255,0,0, 0.6);}
+img.link_streams:hover		{box-shadow: 0px 0px 8px rgba(255,0,0, 0.6);}
 img.link_news		{width: 32%;}
 img.link_games		{width: 32%;}
 img.link_subreddits	{height: 44px;}
