@@ -7,9 +7,9 @@ a:hover 	{color: #000000; text-decoration: none; text-shadow: 0px 0px 8px rgba(2
 a:active 	{color: #999999; text-decoration: none; }
 ::placeholder {color: #330000;}
 
-.button {background-color: #000000; color: #ff0000; font-size: 20px; border-radius: 5px; font-family: ManaSpace; src: url('manaspc.ttf');}
-.button:hover {color: #000000; text-shadow: 0px 0px 8px rgba(255, 0, 0, 0.9); box-shadow: 0px 0px 8px rgba(255, 0, 0, 0.9); border-radius: 5px;}
-.search {width: 75%; background-color: #000000; color: #ff0000; font-size: 20px; box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.9); border-radius: 10px; font-family: ManaSpace; src: url('gfx/manaspc.ttf');}
+.button {background-color: #000000; color: #ff0000; font-size: 20px; border-radius: 5px; font-family: ManaSpace; src: url('manaspc.ttf'); border: 2px solid black;}
+.button:hover {color: #000000; text-shadow: 0px 0px 8px rgba(255, 0, 0, 0.9); box-shadow: 0px 0px 8px rgba(255, 0, 0, 0.9); border-radius: 5px; border: 2px solid black;}
+.search {width: 75%; background-color: #000000; color: #ff0000; font-size: 20px; box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.9); border-radius: 10px; font-family: ManaSpace; src: url('gfx/manaspc.ttf'); border: 2px solid black;}
 
 img.logo_icon 		{position: relative; 	z-index: 16777270; 	height: 100%; top: 0px; cursor: pointer; }
 img.logo_text 		{position: relative;	z-index: 16777270;  height: 95%; top: -3px; cursor: pointer; }
