@@ -120,7 +120,7 @@ hr.main {
 	border: 3px solid black;
 	}
 
-#banner:hover {box-shadow: 0px 0px 8px rgba(255, 0, 0, 0.9)}
+#banner:hover {box-shadow: 0px 0px 8px rgba(255, 0, 0, 0.9);}
 
 #dropelement {
 	position: relative;
@@ -141,6 +141,8 @@ hr.main {
 	top: 0px;	left: 0px;
 	display: none;
 	}
+
+#dropelement:hover {box-shadow: 0px 0px 8px rgba(255, 0, 0, 0.9);}
 
 #subreddits {
 	display: none;
