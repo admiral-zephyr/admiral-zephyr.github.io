@@ -19,7 +19,9 @@ img.link_youtube 	{position: sticky;		z-index: 16777270; 	height: 24px; }
 img.link_streams	{width: 15%;}
 	img.link_streams:hover		{box-shadow: inset 0px 0px 100px 100px rgba(255, 0, 0, 0.1); border-radius: 10px;}
 img.link_news		{width: 10%;}
+	img.link_news:hover		{box-shadow: inset 0px 0px 100px 100px rgba(255, 0, 0, 0.1); border-radius: 10px;}
 img.link_games		{width: 10%;}
+	img.link_games:hover		{box-shadow: inset 0px 0px 100px 100px rgba(255, 0, 0, 0.1); border-radius: 10px;}
 img.link_subreddits	{height: 22px;}
 	img.link_subreddits:hover	{box-shadow: 0px 0px 8px rgba(255, 0, 0, 0.9); border-radius: 5px;}
 img.link_footer 	{z-index: 16777270;		height: 16px; }
