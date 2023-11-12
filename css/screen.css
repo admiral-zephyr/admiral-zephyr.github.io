@@ -1,5 +1,5 @@
 body	{background: #333333 url('../gfx/background_tile.png') repeat; background-attachment: fixed;}
-h6 		{text-align: center; font-size: 12px; font-family: Times, Serif; line-height: normal;}
+h6 		{color: #ffffff; text-align: center; font-size: 12px; font-family: Times, Serif; line-height: normal;}
 
 a:link 		{color: #ffffff; text-decoration: none; }
 a:visited 	{color: #ffffff; text-decoration: none; }
