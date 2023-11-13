@@ -31,9 +31,6 @@
 					var openmenu = document.getElementById("dropelement");
 					if (openmenu.style.display == "block") {openmenu.style.display = "none";} else {openmenu.style.display = "block";}
 				}
-				var rand_num = Math.floor(Math.random() * 10 + 1);
-				rand_google = "gfx/google/google_" +rand_num +".png";
-				document.getElementById('google').src=rand_google;
 			</script>
 			<noscript>Javascript is disabled...</noscript>
 			<span id="dropelement">
@@ -65,6 +62,10 @@
 					var subredditShow = document.getElementById("subreddits");
 					if (subredditShow.style.display == "block") {subredditShow.style.display = "none";} else {subredditShow.style.display = "block";}
 				}
+								var rand_num = Math.floor(Math.random() * 10 + 1);
+				rand_google = "gfx/google/google_" +rand_num +".png";
+				document.getElementById('google').src=rand_google;
+				document.getElementById('google').alt=rand_google;
 			</script>
 			<noscript>Javascript is disabled...</noscript>
 			<a href="https://www.bellingcat.com/" target="_self"><img src="/gfx/bellingcat.png" class="link_news" title="World news."></a>
