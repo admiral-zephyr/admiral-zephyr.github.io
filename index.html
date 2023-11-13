@@ -31,6 +31,8 @@
 					var openmenu = document.getElementById("dropelement");
 					if (openmenu.style.display == "block") {openmenu.style.display = "none";} else {openmenu.style.display = "block";}
 				}
+				var rand_num = Math.floor(Math.random() * 10 + 1);
+				rand_google = "gfx/google/google_" +rand_num +".png";
 			</script>
 			<noscript>Javascript is disabled...</noscript>
 			<span id="dropelement">
@@ -41,7 +43,7 @@
 		</div> <!--BANNER STOP-->
 
 		<br><table class=main><td><tr><br>
-			<center><a href="https://www.google.com"><img src="/gfx/google_zephyr.png" alt="Google" width="400px"></a></center><br>
+			<center><a href="https://www.google.com"><img src=rand_google alt="Google" width="400px"></a></center><br>
 			<center><form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_self">
 				<input autocomplete="on" class="form-control search" name="q" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus fermentum augue vel vulputate. Duis finibus rhoncus libero vel volutpat. Aliquam semper vitae risus sit amet maximus." required="required" type="text" autofocus>     <button class="button" type="submit"><b>SEARCH</b></button></form></center><br><br>
 		</tr></td></table><br>
