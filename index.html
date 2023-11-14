@@ -32,15 +32,15 @@
 					if (openmenu.style.display == "block") {openmenu.style.display = "none";} else {openmenu.style.display = "block";}
 				}
 				function toggle_streams() {
-					var toggle_streams_links = document.getElementsByClassName("link_streams");
+					var toggle_streams_links = document.getElementById("streams_links");
 					if (toggle_streams_links.style.display == "block") {toggle_streams_links.style.display = "none"; toggle_news_links.style.display = "block"; toggle_games_links.style.display = "block";} else {toggle_streams_links.style.display = "block";}
 				}
 				function toggle_news() {
-					var toggle_news_links = document.getElementsByClassName("link_news");
+					var toggle_news_links = document.getElementsById("news_links");
 					if (toggle_news_links.style.display == "block") {toggle_streams_links.style.display = "block"; toggle_news_links.style.display = "none"; toggle_games_links.style.display = "block";} else {toggle_news_links.style.display = "block";}
 				}
 				function toggle_games() {
-					var toggle_games_links = document.getElementsByClassName("link_games");
+					var toggle_games_links = document.getElementsById("games_links");
 					if (toggle_games_links.style.display == "block") {toggle_streams_links.style.display = "block"; toggle_news_links.style.display = "block"; toggle_games_links.style.display = "none";} else {toggle_games_links.style.display = "block";}
 				}
 			</script>
@@ -58,7 +58,7 @@
 				<input autocomplete="on" class="form-control search" name="q" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus fermentum augue vel vulputate. Duis finibus rhoncus libero vel volutpat. Aliquam semper vitae risus sit amet maximus." required="required" type="text" autofocus>     <button class="button" type="submit"><b>SEARCH</b></button></form></center><br><br>
 		</tr></td></table><br>
 		<table class=main><td><tr><center><img src="gfx/Yip0000.png" width="50px" onclick="toggle_streams()"><img src="gfx/Yip0000.png" width="50px" onclick="toggle_news()"><img src="gfx/Yip0000.png" width="50px" onclick="toggle_games()"></center></tr></td></table>
-		<table class=main id="streams_links"><td><tr><center>
+		<span id="streams_links"><table class=main><td><tr><center>
 			<a href="https://www.bitchute.com" target="_self"><img src="/gfx/bitchute.png" class="link_streams" title="Free streaming."></a>
 			<a href="https://www.crunchyroll.com" target="_self"><img src="/gfx/crunchyroll.png" class="link_streams" title="Free streaming with premium services."></a>
 			<a href="https://www.hulu.com" target="_self"><img src="/gfx/hulu.png" class="link_streams" title="Paid streaming."></a>
@@ -68,18 +68,20 @@
 			<a href="https://www.amazon.com/primevideo" target="_self"><img src="/gfx/amazon.png" class="link_streams" title="Paid streaming."></a>
 			<a href="https://www.twitch.tv" target="_self"><img src="/gfx/twitch.png" class="link_streams" title="Free streaming with premium services."></a>
 			<a href="https://www.youtube.com" target="_self"><img src="/gfx/youtube.png" class="link_streams" title="Free streaming with premium services."></a>
-		</center></tr></td></table>
-		<table class=main id="news_links"><td><tr><center>
-			<script type="text/javascript">
-				function subredditToggle() {
-					var subredditShow = document.getElementById("subreddits");
-					if (subredditShow.style.display == "block") {subredditShow.style.display = "none";} else {subredditShow.style.display = "block";}
-				}
-								var rand_num = Math.floor(Math.random() * 11 + 1);
-				rand_google = "gfx/google/google_" +rand_num +".png";
-				document.getElementById('google').src=rand_google;
-			</script>
-			<noscript>Javascript is disabled...</noscript>
+		</center></tr></td></table></span>
+
+		<script type="text/javascript">
+			function subredditToggle() {
+				var subredditShow = document.getElementById("subreddits");
+				if (subredditShow.style.display == "block") {subredditShow.style.display = "none";} else {subredditShow.style.display = "block";}
+			}
+			var rand_num = Math.floor(Math.random() * 11 + 1);
+			rand_google = "gfx/google/google_" +rand_num +".png";
+			document.getElementById('google').src=rand_google;
+		</script>
+		<noscript>Javascript is disabled...</noscript>
+
+		<span id="news_links"></span><table class=main><td><tr><center>
 			<a href="https://www.bellingcat.com/" target="_self"><img src="/gfx/bellingcat.png" class="link_news" title="World news."></a>
 			<a href="https://news.ycombinator.com/" target="_self"><img src="/gfx/hackernews.png" class="link_news" title="Science and technology news."></a>
 			<a href="https://kbin.social/" target="_self"><img src="/gfx/kbin.png" class="link_news" title="Reddit alternative."></a>
@@ -155,9 +157,9 @@
 					<a href="https://www.reddit.com/r/jameswebb" target="_self"><img src="/gfx/subreddits/r_jameswebb.png" class="link_subreddits" title="A subreddit about the James Webb space telescope."></a>
 					<a href="https://www.reddit.com/r/space" target="_self"><img src="/gfx/subreddits/r_space.png" class="link_subreddits" title="Share & discuss informative content on: * Astrophysics * Cosmology * Space Exploration * Planetary Science * Astrobiology"></a>
 					<a href="https://www.reddit.com/r/trees" target="_self"><img src="/gfx/subreddits/r_trees.png" class="link_subreddits" title="The go-to subreddit for anything and everything cannabis. From MMJ to munchies, from nugs to news, and everything between!"></a>
-				</span></center></tr></td></table>
+				</span></center></tr></td></table></span>
 
-		<table class=main id="games_links"><td><tr><center>
+		<span id="games_links"><table class=main><td><tr><center>
 			<a href="https://github.com/GloriousEggroll/proton-ge-custom/releases" target="_self"><img src="/gfx/gloriouseggroll.png" class="link_games" title="Custom versions of proton to run games on linux."></a>
 			<a href="https://linuxmint.com" target="_self"><img src="/gfx/linuxmint.png" class="link_games" title="A linux distribution based on Ubuntu."></a>
 			<a href="https://lutris.net" target="_self"><img src="/gfx/lutris.png" class="link_games" title="A game manager for linux"></a>
@@ -168,7 +170,7 @@
 			<a href="https://store.steampowered.com" target="_self"><img src="/gfx/steam.png" class="link_games" title="An online game store."></a>
 			<a href="https://steamdb.info/calculator/" target="_self"><img src="/gfx/steamdb.png" class="link_games" title="Lookup a SteamID and calculate the value of any Steam account."></a>
 			<a href="https://vimm.net" target="_self"><img src="/gfx/vimmslair.png" class="link_games" title="Roms and Emulation."></a>
-		</center></tr></td></table>
+		</center></tr></td></table></span>
 
 		<!--FOOTER-->
 		<br><div id="center">
