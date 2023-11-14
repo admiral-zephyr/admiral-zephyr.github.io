@@ -160,8 +160,8 @@ hr.main {
 
 #google {}
 
-#streams_links {}
+#streams_links {display: none;}
 
-#news_links {}
+#news_links {display: none;}
 
-#games_links {}
+#games_links {display: none;}
