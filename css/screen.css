@@ -27,9 +27,12 @@ img.link_subreddits	{height: 22px;}
 img.link_footer 	{z-index: 16777270;		height: 16px; }
 img.error			{width: 25%; }
 	img.stone_down:hover		{box-shadow: 0px 0px 8px rgba(255, 0, 0, 0.9);}
-img.toggle_streams	{width: 5%; box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.9); border-radius: 50%;}
-img.toggle_news		{width: 5%; box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.9); border-radius: 50%;}
-img.toggle_games	{width: 5%; box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.9); border-radius: 50%;}
+img.toggle_streams	{width: 5%; border-radius: 50%;}
+	img.toggle_streams:hover	{box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.9);}
+img.toggle_news		{width: 5%; border-radius: 50%;}
+	img.toggle_news:hover		{box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.9);}
+img.toggle_games	{width: 5%; border-radius: 50%;}
+	img.toggle_games:hover	{box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.9);}
 
 table.main {
 	background: #666666 url('../gfx/zstngd.png') repeat;
