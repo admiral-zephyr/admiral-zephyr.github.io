@@ -33,15 +33,18 @@
 				}
 				function toggle_streams() {
 					var toggle_streams_links = document.getElementById("streams_links");
-					if (toggle_streams_links.style.display == "block") {toggle_streams_links.style.display = "none"; toggle_news_links.style.display = "block"; toggle_games_links.style.display = "block";} else {toggle_streams_links.style.display = "block";}
+					if (toggle_streams_links.style.display == "block") {toggle_streams_links.style.display = "none";}
+					else {toggle_streams_links.style.display = "block";}
 				}
 				function toggle_news() {
 					var toggle_news_links = document.getElementsById("news_links");
-					if (toggle_news_links.style.display == "block") {toggle_streams_links.style.display = "block"; toggle_news_links.style.display = "none"; toggle_games_links.style.display = "block";} else {toggle_news_links.style.display = "block";}
+					if (toggle_news_links.style.display == "block") {toggle_news_links.style.display = "none";}
+					else {toggle_news_links.style.display = "block";}
 				}
 				function toggle_games() {
 					var toggle_games_links = document.getElementsById("games_links");
-					if (toggle_games_links.style.display == "block") {toggle_streams_links.style.display = "block"; toggle_news_links.style.display = "block"; toggle_games_links.style.display = "none";} else {toggle_games_links.style.display = "block";}
+					if (toggle_games_links.style.display == "block") {toggle_games_links.style.display = "none";}
+					else {toggle_games_links.style.display = "block";}
 				}
 			</script>
 			<noscript>Javascript is disabled...</noscript>
