@@ -144,9 +144,7 @@ hr.main {
 
 #dropelement:hover {box-shadow: 0px 0px 8px rgba(255, 0, 0, 0.9);}
 
-#subreddits {
-	display: none;
-	}
+#subreddits {display: none;}
 
 #main-body {
 	width: 100%;
@@ -161,8 +159,8 @@ hr.main {
 
 #google {}
 
-#streams_links {}
+#streams_links {display: none;}
 
-#news_links {}
+#news_links {display: none;}
 
-#games_links {}
+#games_links {display: none;}
