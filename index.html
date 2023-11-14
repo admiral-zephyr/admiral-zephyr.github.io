@@ -32,16 +32,16 @@
 					if (openmenu.style.display == "block") {openmenu.style.display = "none";} else {openmenu.style.display = "block";}
 				}
 				function toggle_streams() {
-					var toggle_streams_links = document.getElementById("streams_links");
-					if (toggle_streams_links.style.display == "block") {toggle_streams_links.style.display = "none";} else {toggle_streams_links.style.display = "block";}
+					var toggle_streams_links = document.getElementById("streams_links"); var toggle_news_links = document.getElementById("news_links"); var toggle_games_links = document.getElementById("games_links");
+					if (toggle_streams_links.style.display == "block") {toggle_streams_links.style.display = "none"; toggle_news_links.style.display = "block"; toggle_games_links.style.display = "block";} else {toggle_streams_links.style.display = "block";}
 				}
 				function toggle_news() {
-					var toggle_news_links = document.getElementById("news_links");
-					if (toggle_news_links.style.display == "block") {toggle_news_links.style.display = "none";} else {toggle_news_links.style.display = "block";}
+					var toggle_streams_links = document.getElementById("streams_links"); var toggle_news_links = document.getElementById("news_links"); var toggle_games_links = document.getElementById("games_links");
+					if (toggle_news_links.style.display == "block") {toggle_streams_links.style.display = "block"; toggle_news_links.style.display = "none"; toggle_games_links.style.display = "block";} else {toggle_news_links.style.display = "block";}
 				}
 				function toggle_games() {
-					var toggle_games_links = document.getElementById("games_links");
-					if (toggle_games_links.style.display == "block") {toggle_games_links.style.display = "none";} else {toggle_games_links.style.display = "block";}
+					var toggle_streams_links = document.getElementById("streams_links"); var toggle_news_links = document.getElementById("news_links"); var toggle_games_links = document.getElementById("games_links");
+					if (toggle_games_links.style.display == "block") {toggle_streams_links.style.display = "block"; toggle_news_links.style.display = "block"; toggle_games_links.style.display = "none";} else {toggle_games_links.style.display = "block";}
 				}
 			</script>
 			<noscript>Javascript is disabled...</noscript>
@@ -52,12 +52,11 @@
 			</span>
 		</div> <!--BANNER STOP-->
 
-		<br><table class="main"><td><tr><br>
-			<center><a href="https://www.google.com"><img src="" alt="Google" width="400px" id="google"></a></center><br>
-			<center><form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_self">
-				<input autocomplete="on" class="form-control search" name="q" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus fermentum augue vel vulputate. Duis finibus rhoncus libero vel volutpat. Aliquam semper vitae risus sit amet maximus." required="required" type="text" autofocus>     <button class="button" type="submit"><b>SEARCH</b></button></form></center><br><br>
-		</tr></td></table><br>
-		<table class="main"><td><tr><center><img src="gfx/Yip0000.png" width="50px" onclick="toggle_streams()"/><img src="gfx/Yip0000.png" width="50px" onclick="toggle_news()"/><img src="gfx/Yip0000.png" width="50px" onclick="toggle_games()"/></center></tr></td></table>
+		<center><a href="https://www.google.com"><img src="" alt="Google" width="400px" id="google"></a></center><br>
+		<center><form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_self">
+			<input autocomplete="on" class="form-control search" name="q" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus fermentum augue vel vulputate. Duis finibus rhoncus libero vel volutpat. Aliquam semper vitae risus sit amet maximus." required="required" type="text" autofocus>     <button class="button" type="submit"><b>SEARCH</b></button></form></center>
+		<br><br><br>
+		<center><img src="gfx/Yip0000.png" width="50px" onclick="toggle_streams()"/><img src="gfx/Yip0000.png" width="50px" onclick="toggle_news()"/><img src="gfx/Yip0000.png" width="50px" onclick="toggle_games()"/></center>
 		<span id="streams_links"><table class="main"><td><tr><center>
 			<a href="https://www.bitchute.com" target="_self"><img src="/gfx/bitchute.png" class="link_streams" title="Free streaming."></a>
 			<a href="https://www.crunchyroll.com" target="_self"><img src="/gfx/crunchyroll.png" class="link_streams" title="Free streaming with premium services."></a>
