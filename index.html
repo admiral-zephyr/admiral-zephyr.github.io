@@ -32,15 +32,15 @@
 					if (openmenu.style.display == "block") {openmenu.style.display = "none";} else {openmenu.style.display = "block";}
 				}
 				function toggle_streams() {
-					var toggle_streams_links = document.getElementByClassName("link_streams");
+					var toggle_streams_links = document.getElementsByClassName("link_streams");
 					if (toggle_streams_links.style.display == "block") {toggle_streams_links.style.display = "none"; toggle_news_links.style.display = "block"; toggle_games_links.style.display = "block";} else {toggle_streams_links.style.display = "block";}
 				}
 				function toggle_news() {
-					var toggle_news_links = document.getElementByClassName("link_news");
+					var toggle_news_links = document.getElementsByClassName("link_news");
 					if (toggle_news_links.style.display == "block") {toggle_streams_links.style.display = "block"; toggle_news_links.style.display = "none"; toggle_games_links.style.display = "block";} else {toggle_news_links.style.display = "block";}
 				}
 				function toggle_games() {
-					var toggle_games_links = document.getElementByClassName("link_games");
+					var toggle_games_links = document.getElementsByClassName("link_games");
 					if (toggle_games_links.style.display == "block") {toggle_streams_links.style.display = "block"; toggle_news_links.style.display = "block"; toggle_games_links.style.display = "none";} else {toggle_games_links.style.display = "block";}
 				}
 			</script>
