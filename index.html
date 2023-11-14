@@ -32,15 +32,15 @@
 					if (openmenu.style.display == "block") {openmenu.style.display = "none";} else {openmenu.style.display = "block";}
 				}
 				function toggle_streams() {
-					var toggle_streams_links = document.getElementById("streams_links");
+					var toggle_streams_links = document.getElementByClassName("link_streams");
 					if (toggle_streams_links.style.display == "block") {toggle_streams_links.style.display = "none"; toggle_news_links.style.display = "block"; toggle_games_links.style.display = "block";} else {toggle_streams_links.style.display = "block";}
 				}
 				function toggle_news() {
-					var toggle_news_links = document.getElementById("news_links");
+					var toggle_news_links = document.getElementByClassName("link_news");
 					if (toggle_news_links.style.display == "block") {toggle_streams_links.style.display = "block"; toggle_news_links.style.display = "none"; toggle_games_links.style.display = "block";} else {toggle_news_links.style.display = "block";}
 				}
 				function toggle_games() {
-					var toggle_games_links = document.getElementById("games_links");
+					var toggle_games_links = document.getElementByClassName("link_games");
 					if (toggle_games_links.style.display == "block") {toggle_streams_links.style.display = "block"; toggle_news_links.style.display = "block"; toggle_games_links.style.display = "none";} else {toggle_games_links.style.display = "block";}
 				}
 			</script>
@@ -59,15 +59,15 @@
 		</tr></td></table><br>
 		<table class=main><td><tr><center><img src="gfx/Yip0000.png" width="50px" onclick="toggle_streams()"><img src="gfx/Yip0000.png" width="50px" onclick="toggle_news()"><img src="gfx/Yip0000.png" width="50px" onclick="toggle_games()"></center></tr></td></table>
 		<table class=main id="streams_links"><td><tr><center>
-			<a href="https://www.bitchute.com" target="_self"><img src="/gfx/bitchute.png" class="link_streams" title="Free streaming." id="streams_links"></a>
-			<a href="https://www.crunchyroll.com" target="_self"><img src="/gfx/crunchyroll.png" class="link_streams" title="Free streaming with premium services." id="streams_links"></a>
-			<a href="https://www.hulu.com" target="_self"><img src="/gfx/hulu.png" class="link_streams" title="Paid streaming." id="streams_links"></a>
-			<a href="https://www.netflix.com" target="_self"><img src="/gfx/netflix.png" class="link_streams" title="Paid streaming." id="streams_links"></a>
+			<a href="https://www.bitchute.com" target="_self"><img src="/gfx/bitchute.png" class="link_streams" title="Free streaming."></a>
+			<a href="https://www.crunchyroll.com" target="_self"><img src="/gfx/crunchyroll.png" class="link_streams" title="Free streaming with premium services."></a>
+			<a href="https://www.hulu.com" target="_self"><img src="/gfx/hulu.png" class="link_streams" title="Paid streaming."></a>
+			<a href="https://www.netflix.com" target="_self"><img src="/gfx/netflix.png" class="link_streams" title="Paid streaming."></a>
 			<br>
-			<a href="https://www.pluto.tv" target="_self"><img src="/gfx/pluto.png" class="link_streams" title="Free streaming with premium services." id="streams_links"></a>
-			<a href="https://www.amazon.com/primevideo" target="_self"><img src="/gfx/amazon.png" class="link_streams" title="Paid streaming." id="streams_links"></a>
-			<a href="https://www.twitch.tv" target="_self"><img src="/gfx/twitch.png" class="link_streams" title="Free streaming with premium services." id="streams_links"></a>
-			<a href="https://www.youtube.com" target="_self"><img src="/gfx/youtube.png" class="link_streams" title="Free streaming with premium services." id="streams_links"></a>
+			<a href="https://www.pluto.tv" target="_self"><img src="/gfx/pluto.png" class="link_streams" title="Free streaming with premium services."></a>
+			<a href="https://www.amazon.com/primevideo" target="_self"><img src="/gfx/amazon.png" class="link_streams" title="Paid streaming."></a>
+			<a href="https://www.twitch.tv" target="_self"><img src="/gfx/twitch.png" class="link_streams" title="Free streaming with premium services."></a>
+			<a href="https://www.youtube.com" target="_self"><img src="/gfx/youtube.png" class="link_streams" title="Free streaming with premium services."></a>
 		</center></tr></td></table>
 		<table class=main id="news_links"><td><tr><center>
 			<script type="text/javascript">
@@ -80,11 +80,11 @@
 				document.getElementById('google').src=rand_google;
 			</script>
 			<noscript>Javascript is disabled...</noscript>
-			<a href="https://www.bellingcat.com/" id="news_links" target="_self"><img src="/gfx/bellingcat.png" class="link_news" title="World news."></a>
-			<a href="https://news.ycombinator.com/" id="news_links" target="_self"><img src="/gfx/hackernews.png" class="link_news" title="Science and technology news."></a>
-			<a href="https://kbin.social/" id="news_links" target="_self"><img src="/gfx/kbin.png" class="link_news" title="Reddit alternative."></a>
-			<a href="https://mastodon.social/" id="news_links" target="_self"><img src="/gfx/mastodon.png" class="link_news" title="Twitter alternative."></a>
-			<a href="https://www.reddit.com/" id="news_links" target="_self"><img src="/gfx/reddit.png" class="link_news" title="Social media."></a><img src="/gfx/stone_down.png" title="Click for subreddits." class="stone_down" width="20" onclick="subredditToggle()"/>
+			<a href="https://www.bellingcat.com/" target="_self"><img src="/gfx/bellingcat.png" class="link_news" title="World news."></a>
+			<a href="https://news.ycombinator.com/" target="_self"><img src="/gfx/hackernews.png" class="link_news" title="Science and technology news."></a>
+			<a href="https://kbin.social/" target="_self"><img src="/gfx/kbin.png" class="link_news" title="Reddit alternative."></a>
+			<a href="https://mastodon.social/" target="_self"><img src="/gfx/mastodon.png" class="link_news" title="Twitter alternative."></a>
+			<a href="https://www.reddit.com/" target="_self"><img src="/gfx/reddit.png" class="link_news" title="Social media."></a><img src="/gfx/stone_down.png" title="Click for subreddits." class="stone_down" width="20" onclick="subredditToggle()"/>
 			</center></tr>
 				<tr><center><span id="subreddits" class=main><br>
 					<a href="https://www.reddit.com/r/anime_titties" target="_self"><img src="/gfx/subreddits/r_anime_titties.png" class="link_subreddits" title="World Politics and News"></a>
@@ -158,16 +158,16 @@
 				</span></center></tr></td></table>
 
 		<table class=main id="games_links"><td><tr><center>
-			<a href="https://github.com/GloriousEggroll/proton-ge-custom/releases" target="_self"><img src="/gfx/gloriouseggroll.png" class="link_games" title="Custom versions of proton to run games on linux." id="games_links"></a>
-			<a href="https://linuxmint.com" target="_self"><img src="/gfx/linuxmint.png" class="link_games" title="A linux distribution based on Ubuntu." id="games_links"></a>
-			<a href="https://lutris.net" target="_self"><img src="/gfx/lutris.png" class="link_games" title="A game manager for linux" id="games_links"></a>
-			<a href="https://www.protondb.com" target="_self"><img src="/gfx/protondb.png" class="link_games" title="A database of games and how well they run on linux." id="games_links"></a>
-			<a href="https://www.retroarch.com/" target="_self"><img src="/gfx/retroarch.png" class="link_games" title="An emulator and rom collection manager." id="games_links"></a>
+			<a href="https://github.com/GloriousEggroll/proton-ge-custom/releases" target="_self"><img src="/gfx/gloriouseggroll.png" class="link_games" title="Custom versions of proton to run games on linux."></a>
+			<a href="https://linuxmint.com" target="_self"><img src="/gfx/linuxmint.png" class="link_games" title="A linux distribution based on Ubuntu."></a>
+			<a href="https://lutris.net" target="_self"><img src="/gfx/lutris.png" class="link_games" title="A game manager for linux"></a>
+			<a href="https://www.protondb.com" target="_self"><img src="/gfx/protondb.png" class="link_games" title="A database of games and how well they run on linux."></a>
+			<a href="https://www.retroarch.com/" target="_self"><img src="/gfx/retroarch.png" class="link_games" title="An emulator and rom collection manager."></a>
 			<br>
-			<a href="https://retroachievements.org/" target="_self"><img src="/gfx/retroachievements.png" class="link_games" title="Achievements for classic games." id="games_links"></a>
-			<a href="https://store.steampowered.com" target="_self"><img src="/gfx/steam.png" class="link_games" title="An online game store." id="games_links"></a>
-			<a href="https://steamdb.info/calculator/" target="_self"><img src="/gfx/steamdb.png" class="link_games" title="Lookup a SteamID and calculate the value of any Steam account." id="games_links"></a>
-			<a href="https://vimm.net" target="_self"><img src="/gfx/vimmslair.png" class="link_games" title="Roms and Emulation." id="games_links"></a>
+			<a href="https://retroachievements.org/" target="_self"><img src="/gfx/retroachievements.png" class="link_games" title="Achievements for classic games."></a>
+			<a href="https://store.steampowered.com" target="_self"><img src="/gfx/steam.png" class="link_games" title="An online game store."></a>
+			<a href="https://steamdb.info/calculator/" target="_self"><img src="/gfx/steamdb.png" class="link_games" title="Lookup a SteamID and calculate the value of any Steam account."></a>
+			<a href="https://vimm.net" target="_self"><img src="/gfx/vimmslair.png" class="link_games" title="Roms and Emulation."></a>
 		</center></tr></td></table>
 
 		<!--FOOTER-->
