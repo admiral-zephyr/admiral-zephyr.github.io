@@ -27,6 +27,9 @@ img.link_subreddits	{height: 44px;}
 img.link_footer 	{z-index: 16777270;		height: 32px; }
 img.error			{width: 75%; }
 	img.stone_down:hover		{box-shadow: 0px 0px 8px rgba(255, 0, 0, 0.9);}
+img.toggle_streams	{width: 10%;}
+img.toggle_news		{width: 10%;}
+img.toggle_games	{width: 10%;}
 
 table.main {
 	background: #666666 url('../gfx/zstngd.png') repeat;
@@ -148,6 +151,9 @@ hr.main {
 #streams_links {display: none;}
 #news_links {display: none;}
 #games_links {display: none;}
+#streams_links_image {}
+#news_links_image {}
+#games_links_image {}
 
 #main-body {
 	width: 100%;
