@@ -41,7 +41,7 @@
 		</div> <!--BANNER STOP-->
 
 		<br><table class=main><td><tr><br>
-			<center><a href="https://www.google.com"><img src="" alt="" width="400px" id="google"></a></center><br>
+			<center><a href="https://www.google.com"><img src="" alt="Google" width="400px" id="google"></a></center><br>
 			<center><form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_self">
 				<input autocomplete="on" class="form-control search" name="q" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus fermentum augue vel vulputate. Duis finibus rhoncus libero vel volutpat. Aliquam semper vitae risus sit amet maximus." required="required" type="text" autofocus>     <button class="button" type="submit"><b>SEARCH</b></button></form></center><br><br>
 		</tr></td></table><br>
@@ -62,10 +62,9 @@
 					var subredditShow = document.getElementById("subreddits");
 					if (subredditShow.style.display == "block") {subredditShow.style.display = "none";} else {subredditShow.style.display = "block";}
 				}
-								var rand_num = Math.floor(Math.random() * 5 + 1);
+								var rand_num = Math.floor(Math.random() * 11 + 1);
 				rand_google = "gfx/google/google_" +rand_num +".png";
 				document.getElementById('google').src=rand_google;
-				document.getElementById('google').alt=rand_google;
 			</script>
 			<noscript>Javascript is disabled...</noscript>
 			<a href="https://www.bellingcat.com/" target="_self"><img src="/gfx/bellingcat.png" class="link_news" title="World news."></a>
