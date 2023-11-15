@@ -33,22 +33,26 @@
 				}
 				function toggle_streams() {
 					var toggle_streams_links = document.getElementById("streams_links"); var toggle_news_links = document.getElementById("news_links"); var toggle_games_links = document.getElementById("games_links");
-					if (toggle_streams_links.style.display == "block")
-					{toggle_streams_links.style.display = "none"; toggle_news_links.style.display = "none"; toggle_games_links.style.display = "none";}
+					if (toggle_streams_links.style.display == "block") {toggle_streams_links.style.display = "none"; toggle_news_links.style.display = "none"; toggle_games_links.style.display = "none";}
 					else {toggle_streams_links.style.display = "block"; toggle_news_links.style.display = "none"; toggle_games_links.style.display = "none";}
 				}
 				function toggle_news() {
 					var toggle_streams_links = document.getElementById("streams_links"); var toggle_news_links = document.getElementById("news_links"); var toggle_games_links = document.getElementById("games_links");
-					if (toggle_news_links.style.display == "block")
-					{toggle_streams_links.style.display = "none"; toggle_news_links.style.display = "none"; toggle_games_links.style.display = "none";}
+					if (toggle_news_links.style.display == "block") {toggle_streams_links.style.display = "none"; toggle_news_links.style.display = "none"; toggle_games_links.style.display = "none";}
 					else {toggle_streams_links.style.display = "none"; toggle_news_links.style.display = "block"; toggle_games_links.style.display = "none";}
 				}
 				function toggle_games() {
 					var toggle_streams_links = document.getElementById("streams_links"); var toggle_news_links = document.getElementById("news_links"); var toggle_games_links = document.getElementById("games_links");
-					if (toggle_games_links.style.display == "block")
-					{toggle_streams_links.style.display = "none"; toggle_news_links.style.display = "none"; toggle_games_links.style.display = "none";}
+					if (toggle_games_links.style.display == "block") {toggle_streams_links.style.display = "none"; toggle_news_links.style.display = "none"; toggle_games_links.style.display = "none";}
 					else {toggle_streams_links.style.display = "none"; toggle_news_links.style.display = "none"; toggle_games_links.style.display = "block";}
 				}
+				function subredditToggle() {
+					var subredditShow = document.getElementById("subreddits");
+					if (subredditShow.style.display == "block") {subredditShow.style.display = "none";} else {subredditShow.style.display = "block";}
+				}
+				var rand_num = Math.floor(Math.random() * 11 + 1);
+				rand_google = "gfx/google/google_" +rand_num +".png";
+				document.getElementById('google').src=rand_google;
 			</script>
 			<noscript>Javascript is disabled...</noscript>
 			<span id="dropelement">
@@ -76,17 +80,6 @@
 			<a href="https://www.youtube.com" target="_self"><img src="/gfx/youtube.png" class="link_streams" title="Free streaming with premium services."></a>
 		</center></span>
 
-		<script type="text/javascript">
-			function subredditToggle() {
-				var subredditShow = document.getElementById("subreddits");
-				if (subredditShow.style.display == "block") {subredditShow.style.display = "none";} else {subredditShow.style.display = "block";}
-			}
-			var rand_num = Math.floor(Math.random() * 11 + 1);
-			rand_google = "gfx/google/google_" +rand_num +".png";
-			document.getElementById('google').src=rand_google;
-		</script>
-		<noscript>Javascript is disabled...</noscript>
-		
 		<span id="news_links"><center>
 			<a href="https://www.bellingcat.com/" target="_self"><img src="/gfx/bellingcat.png" class="link_news" title="World news."></a>
 			<a href="https://news.ycombinator.com/" target="_self"><img src="/gfx/hackernews.png" class="link_news" title="Science and technology news."></a>
@@ -107,7 +100,7 @@
 					<a href="https://www.reddit.com/r/linux_gaming" target="_self"><img src="/gfx/subreddits/r_linux_gaming.png" class="link_subreddits" title="A subreddit for discussions and news about gaming on the GNU/Linux family of operating systems (including the Steam Deck)."></a>
 					<a href="https://www.reddit.com/r/linuxmasterrace" target="_self"><img src="/gfx/subreddits/r_linuxmasterrace.png" class="link_subreddits" title="May your htop stats be low and your beard grow long."></a>
 					<a href="https://www.reddit.com/r/linuxmint" target="_self"><img src="/gfx/subreddits/r_linuxmint.png" class="link_subreddits" title="The Linux Mint subreddit: for news, discussion and support for the Linux distribution Linux Mint."></a>
-					<a href="https://www.reddit.com/r/lutris" target="_self"><img src="/gfx/subreddits/r_lutris.png" class="link_subreddits"title="Subreddit dedicated to the Linux gaming platform Lutris."></a>
+					<a href="https://www.reddit.com/r/lutris" target="_self"><img src="/gfx/subreddits/r_lutris.png" class="link_subreddits" title="Subreddit dedicated to the Linux gaming platform Lutris."></a>
 					<a href="https://www.reddit.com/r/overclocking" target="_self"><img src="/gfx/subreddits/r_overclocking.png" class="link_subreddits" title="All things overclocking go here. Learn to overclock, ask experienced users your questions, boast your rock-stable, sky-high OC and help others!"></a>
 					<a href="https://www.reddit.com/r/rtlsdr" target="_self"><img src="/gfx/subreddits/r_rtlsdr.png" class="link_subreddits" title="A subreddit for the low-cost software defined radio (SDR) community."></a>
 					<a href="https://www.reddit.com/r/unixporn" target="_self"><img src="/gfx/subreddits/r_unixporn.png" class="link_subreddits" title="Submit screenshots of all your *NIX desktops, themes, and nifty configurations, or submit anything else that will make ricers happy. Maybe a server running on an Amiga, or a Thinkpad signed by Bjarne Stroustrup? Show the world how pretty your computer can be!"></a>
