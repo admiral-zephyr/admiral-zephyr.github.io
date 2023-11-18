@@ -186,15 +186,11 @@
 				const today = new Date();
 				let h = today.getHours();
 				let m = today.getMinutes();
-				let s = today.getSeconds();
-				m = checkTime(m);
+				if (m < 10) {m = "0" + m};
 				document.getElementById('clock').innerHTML =  h + ":" + m;
 				setTimeout(startTime, 1000);
 			}
-			function checkTime(i) {
-				if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-				return i;
-			}
+
 			var rand_num = Math.floor(Math.random() * 11 + 1);
 			rand_google = "gfx/google/google_" +rand_num +".png";
 			document.getElementById('google').src=rand_google;
