@@ -37,6 +37,7 @@
 		<center><form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_self">
 			<input autocomplete="on" class="form-control search" name="q" title="Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus fermentum augue vel vulputate. Duis finibus rhoncus libero vel volutpat. Aliquam semper vitae risus sit amet maximus." required="required" type="text" autofocus>&nbsp;&nbsp;&nbsp;<button class="button" type="submit"><b>SEARCH</b></button></form></center>
 		<br><br><br>
+		<div id="clock"></div>
 		<center><img src="gfx/toggleStreams.png" id="toggle_streams_image" class="toggle_streams" title="Streams" onclick="toggle_streams()"/>&nbsp;<img src="gfx/toggleNews.png" id="toggle_news_image" class="toggle_news" title="News" onclick="toggle_news()"/>&nbsp;<img src="gfx/toggleGames.png" id="toggle_games_image" class="toggle_games" title="Games" onclick="toggle_games()"/></center>
 		<br>
 		<span id="streams_links"><center>
@@ -179,6 +180,20 @@
 			function subredditToggle() {
 				var subredditShow = document.getElementById("subreddits");
 				if (subredditShow.style.display == "block") {subredditShow.style.display = "none";} else {subredditShow.style.display = "block";}
+			}
+			function startTime() {
+				const today = new Date();
+				let h = today.getHours();
+				let m = today.getMinutes();
+				let s = today.getSeconds();
+				m = checkTime(m);
+				s = checkTime(s);
+				document.getElementById('clock').innerHTML =  h + ":" + m + ":" + s;
+				setTimeout(startTime, 1000);
+			}
+			function checkTime(i) {
+				if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+				return i;
 			}
 			var rand_num = Math.floor(Math.random() * 11 + 1);
 			rand_google = "gfx/google/google_" +rand_num +".png";
