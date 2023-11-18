@@ -13,26 +13,26 @@ a:active 	{color: #ff0000; text-decoration: none; }
 
 img.logo_icon 		{position: relative; 	z-index: 16777270; 	height: 100%; top: 0px; cursor: pointer; }
 img.logo_text 		{position: relative;	z-index: 16777270;  height: 95%; top: -3px; cursor: pointer; }
-img.link_steam 		{position: sticky;		z-index: 16777270; 	height: 64px; }
-img.link_twitch 	{position: sticky;		z-index: 16777270; 	height: 64px; }
-img.link_youtube 	{position: sticky;		z-index: 16777270; 	height: 48px; }
-img.link_streams	{width: 40%;}
-	img.link_streams:hover		{box-shadow: inset 0px 0px 100px 100px rgba(255, 0, 0, 0.1); border-radius: 10px;}
-img.link_news		{width: 32%;}
-	img.link_news:hover		{box-shadow: inset 0px 0px 100px 100px rgba(255, 0, 0, 0.1); border-radius: 10px;}
-img.link_games		{width: 32%;}
-	img.link_games:hover		{box-shadow: inset 0px 0px 100px 100px rgba(255, 0, 0, 0.1); border-radius: 10px;}
-img.link_subreddits	{height: 44px;}
-	img.link_subreddits:hover	{box-shadow: 0px 0px 8px rgba(255, 0, 0, 0.9); border-radius: 5px;}
-img.link_footer 	{z-index: 16777270;		height: 32px; }
-img.error			{width: 75%; }
-	img.stone_down:hover		{box-shadow: 0px 0px 8px rgba(255, 0, 0, 0.9);}
-img.toggle_streams	{width: 15%; border-radius: 50%;}
-	img.toggle_streams:hover	{box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.9);}
-img.toggle_news		{width: 15%; border-radius: 50%;}
-	img.toggle_news:hover		{box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.9);}
-img.toggle_games	{width: 15%; border-radius: 50%;}
-	img.toggle_games:hover	{box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.9);}
+img.link_steam 		{position: sticky;		z-index: 16777270; 	height: 64px; cursor: pointer;}
+img.link_twitch 	{position: sticky;		z-index: 16777270; 	height: 64px; cursor: pointer;}
+img.link_youtube 	{position: sticky;		z-index: 16777270; 	height: 48px; cursor: pointer;}
+img.link_streams	{width: 40%; cursor: pointer;}
+	img.link_streams:hover		{box-shadow: inset 0px 0px 100px 100px rgba(255, 0, 0, 0.1); border-radius: 10px; cursor: pointer;}
+img.link_news		{width: 32%; cursor: pointer;}
+	img.link_news:hover		{box-shadow: inset 0px 0px 100px 100px rgba(255, 0, 0, 0.1); border-radius: 10px; cursor: pointer;}
+img.link_games		{width: 32%; cursor: pointer;}
+	img.link_games:hover		{box-shadow: inset 0px 0px 100px 100px rgba(255, 0, 0, 0.1); border-radius: 10px; cursor: pointer;}
+img.link_subreddits	{height: 44px; cursor: pointer;}
+	img.link_subreddits:hover	{box-shadow: 0px 0px 8px rgba(255, 0, 0, 0.9); border-radius: 5px; cursor: pointer;}
+img.link_footer 	{z-index: 16777270;		height: 32px; cursor: pointer;}
+img.error			{width: 75%; cursor: pointer;}
+	img.stone_down:hover		{box-shadow: 0px 0px 8px rgba(255, 0, 0, 0.9); cursor: pointer;}
+img.toggle_streams	{width: 15%; border-radius: 50%; cursor: pointer;}
+	img.toggle_streams:hover	{box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.9); cursor: pointer;}
+img.toggle_news		{width: 15%; border-radius: 50%; cursor: pointer;}
+	img.toggle_news:hover		{box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.9); cursor: pointer;}
+img.toggle_games	{width: 15%; border-radius: 50%; cursor: pointer;}
+	img.toggle_games:hover	{box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.9); cursor: pointer;}
 
 table.main {
 	background: #666666 url('../gfx/zstngd.png') repeat;
