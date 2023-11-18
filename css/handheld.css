@@ -25,6 +25,7 @@ img.link_games		{width: 32%; cursor: pointer;}
 img.link_subreddits	{height: 44px; cursor: pointer;}
 	img.link_subreddits:hover	{box-shadow: 0px 0px 8px rgba(255, 0, 0, 0.9); border-radius: 5px; cursor: pointer;}
 img.link_footer 	{z-index: 16777270;		height: 32px; cursor: pointer;}
+img.stone_filler 	{z-index: 16777270;		height: 16px;}
 img.error			{width: 75%;}
 	img.stone_down:hover		{box-shadow: 0px 0px 8px rgba(255, 0, 0, 0.9);}
 img.toggle_streams	{width: 15%; border-radius: 50%; cursor: pointer;}

@@ -25,8 +25,9 @@ img.link_games		{width: 10%; cursor: pointer;}
 img.link_subreddits	{height: 22px; cursor: pointer;}
 	img.link_subreddits:hover	{box-shadow: 0px 0px 8px rgba(255, 0, 0, 0.9); border-radius: 5px; cursor: pointer;}
 img.link_footer 	{z-index: 16777270;		height: 16px; cursor: pointer;}
+img.stone_filler 	{z-index: 16777270;		height: 16px;}
 img.error			{width: 25%;}
-	img.stone_down:hover		{box-shadow: 0px 0px 8px rgba(255, 0, 0, 0.9);}
+	img.stone_down:hover		{box-shadow: 0px 0px 8px rgba(255, 0, 0, 0.9); cursor: pointer;}
 img.toggle_streams	{width: 3%; border-radius: 50%; cursor: pointer;}
 	img.toggle_streams:hover	{box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.9); cursor: pointer;}
 img.toggle_news		{width: 3%; border-radius: 50%; cursor: pointer;}
