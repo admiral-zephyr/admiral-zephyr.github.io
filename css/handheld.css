@@ -138,7 +138,6 @@ div.clock {
 
 #dropelement {
 	position: relative;
-	z-index: 16777270;
 	padding: 0px;
 	background: #aaaaaa url('../gfx/background_pattern_00.png') repeat top center / 96px 96px;
 	max-width: 76px;
