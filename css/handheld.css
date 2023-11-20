@@ -9,7 +9,7 @@ a:active 	{color: #ff0000; text-decoration: none; }
 
 .button {background-color: #000000; color: #660000; font-size: 20px; border-radius: 5px; font-family: ManaSpace; src: url('manaspc.ttf'); border: 2px solid #660000; padding: 5px; padding-left: 10px; padding-right: 10px; cursor: pointer;}
 .button:hover {color: #000000; text-shadow: 0px 0px 8px rgba(255, 0, 0, 0.9); box-shadow: 0px 0px 8px rgba(255, 0, 0, 0.9); border-radius: 5px; border: 2px solid #660000; padding: 5px; padding-left: 10px; padding-right: 10px; cursor: pointer;}
-.search {width: 75%; background-color: #000000; color: #ff0000; font-size: 20px; box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.9); border-radius: 10px; font-family: ManaSpace; src: url('gfx/manaspc.ttf'); border: 2px solid black; padding: 5px;}
+.search {width: 75%; max-width: 1200px; background-color: #000000; color: #ff0000; font-size: 20px; box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.9); border-radius: 10px; font-family: ManaSpace; src: url('gfx/manaspc.ttf'); border: 2px solid black; padding: 5px;}
 
 img.logo_icon 		{position: relative; 	z-index: 16777270; 	height: 100%; top: 0px; cursor: pointer; }
 img.logo_text 		{position: relative;	z-index: 16777270;  height: 95%; top: -3px; cursor: pointer; }
