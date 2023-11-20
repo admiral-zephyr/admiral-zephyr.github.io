@@ -122,6 +122,11 @@ div.clock {
 	src: url('manaspc.ttf');
 }
 
+input {
+  caret-color: #ff0000;
+  display: block;
+}
+
 #banner {
 	position: sticky;
 	max-width: 1200px;
