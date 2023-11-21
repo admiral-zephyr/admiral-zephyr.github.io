@@ -123,7 +123,7 @@ div.clock {
 	text-shadow: 0px 0px 2px #000000;
 }
 
-div.clock:hover {text-shadow: 0px 0px 5px #660000;} 
+div.clock:hover {text-shadow: 0px 0px 2px #000000, 0px 0px 5px #660000;} 
 
 #banner {
 	position: sticky;
