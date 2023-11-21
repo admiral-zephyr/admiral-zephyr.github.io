@@ -125,6 +125,16 @@ div.clock {
 
 div.clock:hover {text-shadow: 0px 0px 2px #000000, 0px 0px 5px #660000;} 
 
+div.date {
+	color: #660000;
+	font-size: 64px;
+	font-family: ManaSpace;
+	src: url('manaspc.ttf');
+	text-shadow: 0px 0px 2px #000000;
+}
+
+div.date:hover {text-shadow: 0px 0px 2px #000000, 0px 0px 5px #660000;} 
+
 #banner {
 	position: sticky;
 	max-width: 1200px;

@@ -38,6 +38,7 @@
 			<input autocomplete="on" class="form-control search" name="q" title="Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus fermentum augue vel vulputate. Duis finibus rhoncus libero vel volutpat. Aliquam semper vitae risus sit amet maximus." required="required" type="text" autofocus>&nbsp;&nbsp;&nbsp;<button class="button" type="submit"><b>SEARCH</b></button></form></center>
 		<br><br>
 		<center><a href="https://time.is/"><div id="clock" class="clock"></div></a></center>
+		<center><a href="https://time.is/"><div id="date" class="date"></div></a></center>
 		<hr width="10%" height="3px" color="#660000" >
 		<center><img src="gfx/toggleStreams.png" id="toggle_streams_image" class="toggle_streams" title="Streams" onclick="toggle_streams()"/>&nbsp;<img src="gfx/toggleNews.png" id="toggle_news_image" class="toggle_news" title="News" onclick="toggle_news()"/>&nbsp;<img src="gfx/toggleGames.png" id="toggle_games_image" class="toggle_games" title="Games" onclick="toggle_games()"/></center>
 		<br>
@@ -195,6 +196,7 @@
 			var rand_num = Math.floor(Math.random() * 11 + 1);
 			rand_google = "gfx/google/google_" +rand_num +".png";
 			document.getElementById('google').src=rand_google;
+			document.getElementById('date').innerHTML = toDateString();
 		</script>
 		<noscript>Javascript is disabled...</noscript>
 	</body>
