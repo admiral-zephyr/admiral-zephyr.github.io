@@ -187,17 +187,17 @@
 				const today = new Date();
 				let h = today.getHours();
 				let m = today.getMinutes();
+				let date = today.toDateString();
 				if (m < 10) {m = "0" + m};
 				if (h < 13) {document.getElementById('clock').innerHTML =  h + ":" + m + "am";}
 				else {h = h - 12; document.getElementById('clock').innerHTML =  h + ":" + m + "pm";}
+				document.getElementById('date').innerHTML = date;
 				setTimeout(startTime, 1000);
 			}
 
 			var rand_num = Math.floor(Math.random() * 11 + 1);
 			rand_google = "gfx/google/google_" +rand_num +".png";
 			document.getElementById('google').src=rand_google;
-			const fullDate = toDateString();
-			document.getElementById('date').innerHTML = fullDate;
 		</script>
 		<noscript>Javascript is disabled...</noscript>
 	</body>
