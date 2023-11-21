@@ -196,7 +196,8 @@
 			var rand_num = Math.floor(Math.random() * 11 + 1);
 			rand_google = "gfx/google/google_" +rand_num +".png";
 			document.getElementById('google').src=rand_google;
-			document.getElementById('date').innerHTML = toDateString();
+			var fullDate = toDateString();
+			document.getElementById('date').innerHTML = fullDate;
 		</script>
 		<noscript>Javascript is disabled...</noscript>
 	</body>
