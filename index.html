@@ -191,8 +191,8 @@
 				let m = today.getMinutes();
 				let date = today.toDateString();
 				if (m < 10) {m = "0" + m};
-				if (h < 13) {document.getElementById('clock').innerHTML =  h + ":" + m + "am";}
-				else {h = h - 12; document.getElementById('clock').innerHTML =  h + ":" + m + "pm";}
+				if (h < 13) {document.getElementById('clock').innerHTML =  h + ":" + m + "a";}
+				else {h = h - 12; document.getElementById('clock').innerHTML =  h + ":" + m + "p";}
 				document.getElementById('date').innerHTML = date;
 				setTimeout(startTime, 1000);
 			}
