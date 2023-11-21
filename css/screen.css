@@ -120,7 +120,7 @@ div.clock {
 	font-size: 64px;
 	font-family: ManaSpace;
 	src: url('manaspc.ttf');
-	text-shadow: 0.0em 0.0em 0.5em black;
+	text-shadow: 0.0em 0.0em 1.0em black;
 }
 
 #banner {
