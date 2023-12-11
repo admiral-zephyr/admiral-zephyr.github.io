@@ -20,6 +20,15 @@
 		<!--CSS-->
 		<link rel="stylesheet" type="text/css" media="(max-width: 1080px) and (orientation: portrait)" href="/css/handheld.css" />
 		<link rel="stylesheet" type="text/css" media="(min-width: 400px) and (orientation: landscape)" href="/css/screen.css" />
+		<script type='text/javascript'>
+			window.smartlook||(function(d) {
+				var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+				var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+				c.charset='utf-8';c.src='https://web-sdk.smartlook.com/recorder.js';h.appendChild(c);
+				})(document);
+				smartlook('init', '8d2c275a7f95de474b5e0f74ae76c8b4743133c4', { region: 'eu' });
+		</script>
+
 	</head>
 
 	<body onload="startTime()">
