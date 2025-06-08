@@ -14,11 +14,11 @@ a:active 	{color: #ff0000; text-decoration: none; }
 img.logo_icon 		{position: relative; 	z-index: 16777270; 	height: 100%; top: 0px; cursor: pointer; }
 img.logo_text 		{position: relative;	z-index: 16777270;  height: 95%; top: -3px; cursor: pointer; }
 img.link_steam 		{position: sticky;		z-index: 16777270; 	height: 64px; cursor: pointer;}
-	img.link_steam:hover		{box-shadow: 0px 0px 10px 10px rgba(255, 0, 0, 0.1); cursor: pointer;}
+	img.link_steam:hover		{box-shadow: 0px 0px 10px 10px rgba(255, 0, 0, 0.1), inset 0px 0px 5px 5px rgba(255, 0, 0, 0.1); cursor: pointer;}
 img.link_twitch 	{position: sticky;		z-index: 16777270; 	height: 64px; cursor: pointer;}
-	img.link_twitch:hover		{box-shadow: 0px 0px 10px 10px rgba(255, 0, 0, 0.1); cursor: pointer;}
+	img.link_twitch:hover		{box-shadow: 0px 0px 10px 10px rgba(255, 0, 0, 0.1), inset 0px 0px 5px 5px rgba(255, 0, 0, 0.1); cursor: pointer;}
 img.link_youtube 	{position: sticky;		z-index: 16777270; 	height: 48px; cursor: pointer;}
-	img.link_youtube:hover		{box-shadow: 0px 0px 10px 10px rgba(255, 0, 0, 0.1); cursor: pointer;}
+	img.link_youtube:hover		{box-shadow: 0px 0px 10px 10px rgba(255, 0, 0, 0.1), inset 0px 0px 5px 5px rgba(255, 0, 0, 0.1); cursor: pointer;}
 img.link_streams	{width: 40%; cursor: pointer;}
 	img.link_streams:hover		{box-shadow: inset 0px 0px 100px 100px rgba(255, 0, 0, 0.1); border-radius: 10px; cursor: pointer;}
 img.link_news		{width: 32%; cursor: pointer;}
